@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+.winnerHeader {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: white;
+}
+
+.tiktokNickname {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.reload {
+  margin-top: 20px;
+}
+
+@media screen and (max-width:600px) {
+  div.headerRight {
+      width: 30%;
+      justify-content: center;
+    }
+  .tiktokNickname {
+    font-size: 18px;
+  }
+}
+
